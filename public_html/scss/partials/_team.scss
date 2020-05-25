@@ -1,0 +1,27 @@
+$team-color: $primary;
+
+.team-section{
+    padding: 67px 0 61px;
+    
+    .team-header{
+        a{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            font-weight: $font-weight-medium;
+        }
+    }
+    
+    .team-member{
+        .team-member-name{
+           font-size: 2.2rem;
+           line-height: 2.7rem;
+           color: $team-color;
+           font-weight: $font-weight-medium;
+        }
+        
+        .fab{
+            font-size: 2.5rem;
+            color: darken($team-color, 20%) !important;
+        }
+    }
+}
